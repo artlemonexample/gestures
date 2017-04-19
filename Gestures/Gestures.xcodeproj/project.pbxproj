@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		297844AA1EA7D33B0012CEC0 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 297844A91EA7D33B0012CEC0 /* SwipeViewController.m */; };
 		F06BE3251EA7C4E600E4DF9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06BE3241EA7C4E600E4DF9D /* main.m */; };
 		F06BE3281EA7C4E600E4DF9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F06BE3271EA7C4E600E4DF9D /* AppDelegate.m */; };
 		F06BE32B1EA7C4E600E4DF9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06BE32A1EA7C4E600E4DF9D /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		297844A81EA7D33B0012CEC0 /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		297844A91EA7D33B0012CEC0 /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
 		F06BE3201EA7C4E600E4DF9D /* Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06BE3241EA7C4E600E4DF9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F06BE3261EA7C4E600E4DF9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 			children = (
 				F06BE3291EA7C4E600E4DF9D /* ViewController.h */,
 				F06BE32A1EA7C4E600E4DF9D /* ViewController.m */,
+				297844A81EA7D33B0012CEC0 /* SwipeViewController.h */,
+				297844A91EA7D33B0012CEC0 /* SwipeViewController.m */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 				F06BE32B1EA7C4E600E4DF9D /* ViewController.m in Sources */,
 				F06BE3281EA7C4E600E4DF9D /* AppDelegate.m in Sources */,
 				F06BE3251EA7C4E600E4DF9D /* main.m in Sources */,
+				297844AA1EA7D33B0012CEC0 /* SwipeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +329,7 @@
 				F06BE3391EA7C4E600E4DF9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
