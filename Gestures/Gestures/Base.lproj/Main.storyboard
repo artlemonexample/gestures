@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1b1-Bb-2K5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F54b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1b1-Bb-2K5">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="2301.5999999999999" y="-266.71664167916043"/>
         </scene>
-        <!--Item-->
+        <!--Pinch-->
         <scene sceneID="VPi-xj-KB9">
             <objects>
-                <viewController id="X2f-kj-oPI" sceneMemberID="viewController">
+                <viewController id="X2f-kj-oPI" customClass="PinchViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jjk-6V-fIh"/>
                         <viewControllerLayoutGuide type="bottom" id="5s6-X0-rsb"/>
@@ -71,13 +71,23 @@
                     <view key="view" contentMode="scaleToFill" id="xMm-6N-H1M">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vLw-pj-pib">
+                                <rect key="frame" x="60" y="129" width="273" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="BU8-hc-0V8"/>
+                    <tabBarItem key="tabBarItem" title="Pinch" id="BU8-hc-0V8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0VE-uU-1mI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2170" y="582"/>
+            <point key="canvasLocation" x="2302" y="526"/>
         </scene>
         <!--Item-->
         <scene sceneID="UQw-EU-E6w">

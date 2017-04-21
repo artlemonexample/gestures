@@ -14,6 +14,7 @@
 		F06BE32E1EA7C4E600E4DF9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06BE32C1EA7C4E600E4DF9D /* Main.storyboard */; };
 		F06BE3301EA7C4E600E4DF9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06BE32F1EA7C4E600E4DF9D /* Assets.xcassets */; };
 		F06BE3331EA7C4E600E4DF9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06BE3311EA7C4E600E4DF9D /* LaunchScreen.storyboard */; };
+		FBA325C51EAA32D8002207B5 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA325C41EAA32D8002207B5 /* PinchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		F06BE32F1EA7C4E600E4DF9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F06BE3321EA7C4E600E4DF9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F06BE3341EA7C4E600E4DF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBA325C31EAA32D8002207B5 /* PinchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		FBA325C41EAA32D8002207B5 /* PinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				F06BE32A1EA7C4E600E4DF9D /* ViewController.m */,
 				297844A81EA7D33B0012CEC0 /* SwipeViewController.h */,
 				297844A91EA7D33B0012CEC0 /* SwipeViewController.m */,
+				FBA325C31EAA32D8002207B5 /* PinchViewController.h */,
+				FBA325C41EAA32D8002207B5 /* PinchViewController.m */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 			files = (
 				F06BE32B1EA7C4E600E4DF9D /* ViewController.m in Sources */,
 				F06BE3281EA7C4E600E4DF9D /* AppDelegate.m in Sources */,
+				FBA325C51EAA32D8002207B5 /* PinchViewController.m in Sources */,
 				F06BE3251EA7C4E600E4DF9D /* main.m in Sources */,
 				297844AA1EA7D33B0012CEC0 /* SwipeViewController.m in Sources */,
 			);
